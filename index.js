@@ -9,7 +9,7 @@ module.exports = function() {
     if (file.isNull()) return cb(null, file); // pass along
 
     var str = file.contents.toString('utf-8');
-    file.contents = new Buffer(atpl(str));
+    file.contents = new Buffer(atpl(str).render.toString());
     file.path = file.path + '.js';
     cb(null, file);
   });
