@@ -4,7 +4,7 @@
   "description": "Gulp plugin for anima-template.",
   "main": "index",
   "dependencies": {
-    "anima-template": "~1.0.12",
+    "anima-template": "~1.0.13",
     "through2": "~0.6.3"
   },
   "devDependencies": {
